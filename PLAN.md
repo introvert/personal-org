@@ -39,7 +39,7 @@ hygiene; this is the actual change._
 
 | # | Do this | Why it ranks here | Owner | Done when |
 |---|---|---|---|---|
-| **6** | **Name a growth owner who is not you.** Promote Izabela, hire fractional 2 days/week, or start the search — but name someone this month | The MRR plan puts Levers 1 **and** 5 on you, plus marketing, product, positioning and diligence. That's a single-server queue, and it's the constraint on the quarter. Your own risk table flags founder bottleneck as *high probability* and says Phase 2, not Phase 3 | You → them | A name exists and owns a number |
+| **6** | **Name a growth owner who is not you.** Promote Izabela, hire fractional 2 days/week, or start the search — but name someone this month. **One senior owner with agent leverage, not a growth team** | The MRR plan puts Levers 1 **and** 5 on you, plus marketing, product, positioning and diligence. That's a single-server queue, and it's the constraint on the quarter. Your own risk table flags founder bottleneck as *high probability* and says Phase 2, not Phase 3. **AI does not remove this item** — it produces artifacts, not accountability, and artifacts flow into your approval queue ([`docs/09`](docs/09-technology-leverage.md)) | You → them | A name exists and owns a number |
 | **7** | **Hand Lever 1 to CS.** Cohorts, sequence and calls via the `migration-upsell` skill; you take only the largest accounts | The highest-certainty MRR in the plan (+$4,500, zero CAC) and it's mostly systematic. Founder involvement should scale with account size, not apply uniformly | CS | Sequence sent without you writing it |
 | **8** | **On-call rotation. Route Sentry/uptime/backlog alerts away from you by default** | Both a health intervention and a delegation forcing-function — engineers who can't escalate to you by default start owning outcomes | Rok + Eng | You are not a default recipient of anything |
 | **9** | **Name a unit-economics owner. Stand up the weekly cost page:** cost/keyword, cost/prompt by model, gross margin, pager events, Sidekiq p95 | LLM spend is called your fastest-growing variable cost **with no measured baseline**, and the 40% reduction was *assumed for margin math with no plan*. Every incident silently re-raises "are we getting more expensive faster than we're growing?" — that's what actually exhausts people | One engineer | One page, updated weekly, not by you |
@@ -63,6 +63,8 @@ determine the next five years._
 | **17** | **Answer the 3× capacity question in writing, once.** Where the stack breaks, what it costs to fix | Closes a loop you've been carrying indefinitely, and it's a diligence asset regardless | Half a day, eng |
 | **18** | **First monthly competitive review — then nothing until the next one** | The strategy is locked (Peec = tailwind). Continuous monitoring can't improve a locked decision; it only supplies threat signal | 1 block/month |
 | **19** | **Personal: compute runway. Strength sessions on the calendar. Book a holiday** | Runway converts fear into patience, and patience is the highest-value asset in any negotiation | 1 afternoon + calendar |
+| **19b** | **Run one function AI-first for 30 days** — the migration campaign. Measure output, rework rate, MRR booked, and **founder review hours** | Tests the AI-first thesis on evidence instead of assertion, on a campaign you're running anyway. **Founder review hours is the decisive metric** — if output rises and your time rises with it, the model is making WIP at the bottleneck. Result rewrites the hiring plan in either direction | Zero marginal |
+| **19c** | **Rewrite the Phase-3 hiring plan: owners, not producers.** Kill the Content Lead, defer both AEs, elevate CS to own retention, promote an internal AI/automation owner | ~5 hires (~$700K/yr) → ~1 hire + 2 internal ownership moves. The real AI-first win — without removing the accountability layer that fixes the bottleneck | Half a day |
 
 ---
 
@@ -121,6 +123,7 @@ whether next quarter looks like this one:
 | 🔴 open loops in the tracker | 3 | **0** |
 | Levers owned personally by you | 2+ | **1** (demos) |
 | Named non-founder growth owner | none | **1** |
+| Revenue per employee | ~$70K ARR/head | **measured quarterly, rising** |
 | Out-of-hours alerts reaching you | default | **0** |
 | Cost-per-check visible and owned | no | **yes** |
 | Competitive research sessions | continuous | **1/month** |

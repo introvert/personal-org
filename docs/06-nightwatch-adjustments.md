@@ -60,6 +60,13 @@ Cheapest viable versions, in order of speed:
   cheaper than the founder's time, and reversible (Gate 1).
 - **Full hire** — right, but slow. Start the search; do not wait for it.
 
+**This is one senior owner with agent leverage — not a growth team.** Under the
+AI-first model ([`09`](09-technology-leverage.md)), the production work
+(content, sequences, lists, research) belongs to skills, so this role is scoped
+as *ownership of the number* rather than as a headcount multiplier. What AI
+cannot do is the reason this item exists: hold accountability, decide, and take
+the escalations off the founder's desk.
+
 **b) Split Lever 1 off the founder entirely.**
 The migration/upsell campaign is the highest-certainty MRR in the plan and it is
 mostly systematic: cohort the base, send the sequence, run the calls. The

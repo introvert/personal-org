@@ -33,6 +33,150 @@ skip it.
 
 ---
 
+## The AI-first operating model — and what it means for hiring
+
+_Position: Nightwatch is being built as an AI-first company, so hiring should be
+reconsidered, because most work can now be done by AI and agents when done
+properly. This section takes that seriously, states where it is right, states
+precisely where it breaks, and rewrites the hiring plan accordingly._
+
+### Where this is straightforwardly right
+
+- **The production work is genuinely AI-doable now.** Content, copy, research,
+  competitive digests, first-draft support, metadata, report generation, data
+  pulls, cohort analysis, sequence drafting, triage. Not "approaching" — actually
+  doable, at professional quality, today.
+- **The skills already exist and are barely used.** Ten working skills across the
+  two repos (`migration-upsell`, `cro-experiment`, `churn-save`,
+  `nightwatch-cold-outreach`, `ppc-b2b`, `ar-triage`, `release-copy`,
+  `scene-content`, `scene-radar`, `support-copilot`). That is done work sitting
+  idle — leverage already paid for.
+- **The `CONCLUSIONS.md` Phase-3 hiring plan is genuinely questionable.** Five
+  roles at roughly **$700K/year** — Head of Growth, Content Lead, two Enterprise
+  AEs, a CSM — for a bootstrapped company at $64K MRR. A large fixed cost, and a
+  meaningful share of what those roles do in year one is now AI-assistable.
+  **Reconsidering it is correct.**
+- **It is strategically coherent.** Nightwatch sells search intelligence for the
+  AI era. Operating AI-first is a credibility asset and a content engine, not
+  just an efficiency play.
+- **It raises value per unit of work** — the exact metric in
+  [`12`](12-long-term-and-repositioning.md). This is aligned with the thesis,
+  not in tension with it.
+- **At Formaviva it is not optional, it is the only option.** No revenue, a hard
+  cap, no hires possible. The skills are what make one slot per week productive.
+  That is the pure case, and it already works.
+
+### Where the argument breaks (the part that matters)
+
+> **The bottleneck here has never been production. It is ownership.**
+
+Re-read the diagnosis in [`02`](02-current-state.md) and
+[`06`](06-nightwatch-adjustments.md). The reason to bring in a growth owner is
+**not** that the founder cannot write the migration emails — AI writes them, and
+the `migration-upsell` skill already encodes the cohorts, pricing and tone. The
+reason is that **someone other than the founder must own the number**: make the
+judgment calls, decide the trade-offs, be accountable when it misses, hold the
+customer relationship, and absorb the escalations.
+
+AI produces artifacts. It does not hold accountability. It cannot own a quota,
+be escalated to at 23:00, sign off on a discount, decide what not to do, be the
+person an enterprise buyer trusts, or carry a relationship across a year.
+
+Which produces the failure mode that must be named clearly:
+
+> ### Replacing a hire with AI raises output while leaving every decision on the founder's desk — which is exactly the documented root cause of the entire problem.
+>
+> **More artifacts flowing into the same single approval queue makes the
+> bottleneck worse, not better.**
+
+This is standard constraint theory. Speeding up a non-bottleneck stage does not
+increase throughput; it increases work-in-progress *at* the bottleneck. Here the
+bottleneck is a person, and the symptom is fatigue. **An AI-first org without
+owners is a founder-bottleneck accelerator.**
+
+Two further constraints specific to this situation:
+
+- **"When done properly" is load-bearing, and doing it properly is itself work.**
+  Skills, context, evals, review loops, and quality gates need an owner. If that
+  owner is the founder, AI has been converted into another founder-queue item.
+- **Diligence is ahead of a launch, and key-person dependency is the single
+  thing acquirers discount hardest.** An org chart reading "founder + agents" is
+  a risk line in a data room, not an efficiency story. **Hiring owners raises
+  valuation; refusing to hire depresses it.** This cuts directly against the
+  instinct, and it is worth weighing honestly given the timing.
+
+### The synthesis
+
+> **AI-first changes *what* you hire and *how many* — not *whether*.**
+>
+> **Stop hiring producers. Hire owners. Give each owner AI leverage so one
+> person covers what used to take three.**
+
+The test for any role, applied honestly:
+
+| Question | If yes |
+|---|---|
+| Does this role mainly **produce artifacts** (content, copy, lists, reports, drafts)? | **Don't hire.** Skill + agent + a review step |
+| Does this role **own an outcome**, make judgment calls, and carry accountability? | **Hire** — and give them agents |
+| Does it require **trust, relationship, or presence**? | **Hire.** Founder demos convert at 25–30% *because a human founder is in the room* |
+| Does it carry **liability or on-call responsibility**? | **Hire/assign.** Someone must be responsible for payouts, incidents, compliance |
+
+### The rewritten hiring plan
+
+Against `CONCLUSIONS.md` Phase 3:
+
+| Original plan (~$700K/yr) | AI-first revision |
+|---|---|
+| Head of Growth | ✅ **Hire — highest priority.** But as a *single owner with agent leverage*, not the head of a team. This is `PLAN.md` #6 and it does not change |
+| Content Lead | ❌ **Don't hire.** This is the clearest artifact role in the plan. Skills + a review step, owned by the growth owner |
+| 2× Enterprise AE | ⏸ **Defer both.** Founder-led demos are the differentiated asset. Revisit only when demo volume genuinely exceeds one person |
+| CSM | ✅ **Assign, don't hire.** Elevate existing CS to own retention and the save-flow, with `churn-save` doing the production. Accountability moves; headcount doesn't |
+| — | ➕ **AI/automation owner.** Someone owns the skills, evals, pipelines, and quality gates. Almost certainly an internal promotion from the existing engineers, not a hire |
+
+**Net: roughly one hire plus two internal ownership moves, instead of five hires.
+That is a real and substantial win — and it is what "AI-first" should actually
+mean here.** What it must not mean is zero owners.
+
+### The scoreboard for an AI-first company
+
+If this is the operating model, measure it. The natural KPI:
+
+> **Revenue per employee.**
+
+Nightwatch at $64K MRR across ~11 people is roughly **$70K ARR per head**.
+Healthy bootstrapped B2B SaaS typically runs **$150–250K+**. That gap is the
+honest statement of the opportunity — and it reframes hiring cleanly:
+
+> **Hire only when the hire raises revenue per head.** An owner who unlocks
+> expansion revenue does. A producer who adds output the founder must still
+> approve does not.
+
+Track it quarterly alongside the cost page in [`06`](06-nightwatch-adjustments.md).
+
+### Test the claim before betting the plan on it
+
+"Most things can be done by AI when done properly" is plausible and I largely
+agree — but it is currently an assertion, and this repo's standing rule is that
+decisions run on evidence, not estimates ([`02`](02-current-state.md) §unknowns).
+
+**A cheap, dated test, consistent with Gate 5:**
+
+> Run **one complete function AI-first for 30 days** — the migration/upsell
+> campaign is the ideal candidate (bounded, measurable, skill already written,
+> highest-certainty MRR). Measure: output volume, quality/rework rate, **hours of
+> founder review time**, and MRR booked.
+>
+> **The decisive metric is founder review hours, not output volume.** If output
+> triples while founder time also rises, the model is producing WIP at the
+> bottleneck and the hiring plan should not be cut. If output triples while
+> founder time falls, the thesis is proven and the hiring plan should be cut
+> further than the table above.
+
+Either result is worth having, and it costs one campaign that was being run
+anyway.
+
+---
+
 ## Tier 1 — Do now (high leverage, near-zero build)
 
 ### 1. Use the skills that already exist
@@ -196,3 +340,7 @@ are safe to rely on.
 > **Adopt what exists, automate the assembly of numbers and the monitoring of
 > competitors, route alerts away from yourself, and refuse to build a personal
 > system. The leverage is in removing inputs, not in adding tools.**
+>
+> **And on hiring: AI replaces producers, not owners. Hire fewer, more senior
+> people who own outcomes — then give them agents. An AI-first company with no
+> owners is just a founder bottleneck with better throughput upstream of it.**
