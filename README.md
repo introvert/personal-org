@@ -46,6 +46,7 @@ Then, for the reasoning behind it:
 | 10 | [90-Day Plan](docs/10-90-day-plan.md) | Four outcomes, week by week |
 | 11 | [Review Cadence](docs/11-review-cadence.md) | Weekly, monthly, quarterly, annual — and the drift signals |
 | 12 | [Long-Term & Repositioning](docs/12-long-term-and-repositioning.md) | 3–5 year horizon: where to generate more value with less work |
+| 13 | [Quality of Life](docs/13-quality-of-life.md) | The same items re-sorted by lived-quality return per unit of effort — and every stated priority evaluated against the rest |
 
 ---
 
