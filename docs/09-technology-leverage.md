@@ -143,13 +143,27 @@ If this is the operating model, measure it. The natural KPI:
 
 > **Revenue per employee.**
 
-Nightwatch at $64K MRR across ~11 people is roughly **$70K ARR per head**.
-Healthy bootstrapped B2B SaaS typically runs **$150–250K+**. That gap is the
-honest statement of the opportunity — and it reframes hiring cleanly:
+**Corrected against the real cost base** ([`02`](02-current-state.md)): the team
+is ~3 people, not the ~11 in the stale April 2025 snapshot. At ~$60K MRR that is
+**~$240K ARR per head** (~$180K including the founder) — **at or above the top of
+the healthy bootstrapped B2B SaaS band of $150–250K.**
 
-> **Hire only when the hire raises revenue per head.** An owner who unlocks
-> expansion revenue does. A producer who adds output the founder must still
-> approve does not.
+> **The AI-first operating model is not a goal here. It is already the current
+> state, and it is working.**
+
+Which sharpens rather than softens the hiring conclusion:
+
+- Efficiency is **not** the problem to solve. It is already solved, and further
+  optimizing it has little left to give.
+- With three people carrying seven-plus services, **bus factor is 1 on
+  everything** — the binding risk is now redundancy and ownership, not cost.
+- **Money is not the constraint either.** ~$46,700/month of surplus makes a
+  growth owner 6–11% of surplus, self-funding against Lever 1's already-scoped
+  +$4,500.
+
+> **Hire only when the hire raises revenue per head — or removes a bus-factor-1
+> dependency.** An owner who unlocks expansion revenue does both. A producer who
+> adds output the founder must still approve does neither.
 
 Track it quarterly alongside the cost page in [`06`](06-nightwatch-adjustments.md).
 

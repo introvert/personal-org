@@ -13,7 +13,7 @@ traces to a source document so it can be argued with rather than absorbed._
 |---|---|---|
 | Age / stage | 13 years, bootstrapped, profitable | `ai-docs/EXECUTIVE-SUMMARY.md` |
 | Revenue | **$64K MRR** live figure (other docs quote ~€1.5M ARR / ~800 customers as "rounded/aspirational") | `ai-docs/MRR-SCALING-PLAN.md` |
-| Team | ~11 people; **no marketing lead, no Head of Growth, no CSM, no AEs** | `docs/01-company/team.md` |
+| Team | **~3 people** (support, development, infra) — see cost base below. `team.md` still lists ~11 from an **Apr 2025 snapshot and is stale** | Founder, 2026-07 |
 | Services | Ember web, React assistant, Go gateway, Rails API, Go proxy, SERP engine, AI tracking service | `docs/03-engineering/architecture.md` |
 | Data infra | ClickHouse + Postgres + Kafka + Sidekiq/Redis + raw HTML for every check, on Kubernetes | same |
 | Scale | Millions of keywords daily, 107,296 locations, 5 LLM providers | same |
@@ -44,6 +44,97 @@ traces to a source document so it can be argued with rather than absorbed._
 | Marketing function | "appears to be founder-driven" (`nightwatch-org/docs/01-company/team.md`) |
 | Documented drains | Processing/scalability problems, competitor density and constant change, an unprofitable loved project |
 | Health status | **Unknown — no baseline exists.** This is itself a finding |
+
+---
+
+## The real cost base (founder figures, 2026-07)
+
+> ⚠️ Supersedes `nightwatch-org/docs/01-company/team.md`, which is an April 2025
+> snapshot listing ~11 people. **That doc should be updated in its own repo.**
+> Two figures below were ambiguous when given and are marked; the revenue number
+> is still unconfirmed (P0 #2).
+
+### The monthly numbers
+
+| Line | USD/month | Note |
+|---|---|---|
+| Customer support (1 person) | **$2,300** | |
+| Development | **$2,000** | |
+| Infrastructure / DevOps person | **$2,500** | |
+| **People subtotal** | **$6,800** | ~3 people, ~$27K/yr average |
+| Servers & processing infrastructure | **$5,000** | of which ~$2,000 is processing/SERP fetching ⚠️ |
+| Other services | **$1,000–2,000** | take $1,500 midpoint |
+| **Infrastructure subtotal** | **$6,500** | |
+| **TOTAL OPEX** | **≈ $13,300/mo** | ≈ **$160K/year** |
+
+⚠️ **Sensitivity.** If the $2,000 processing figure is *additional* to the $5,000
+rather than inside it, infrastructure is $7,000 and total opex is **$15,300/mo**
+(≈$184K/yr). Materially different for planning, not decision-changing at this
+revenue. Confirm which reading is right.
+
+### What it implies
+
+Revenue "slipped slightly" from $64K MRR. Modelled across a range, because the
+actual figure is still one of the P0 items:
+
+| MRR | Annual revenue | Opex | **Monthly surplus** | Operating margin |
+|---|---|---|---|---|
+| $64,000 | $768K | $13,300 | **$50,700** | 79% |
+| $60,000 | $720K | $13,300 | **$46,700** | **78%** |
+| $56,000 | $672K | $13,300 | **$42,700** | 76% |
+
+- **Gross margin ≈ 89%** (revenue less infrastructure and services). Well above
+  the ~68% blended target assumed in `CONCLUSIONS.md` §8.
+- **Operating margin ≈ 78%.** This is an unusually profitable small software
+  business.
+- **Roughly $560K/year of operating surplus** at $60K MRR.
+
+### The three structural facts this reveals
+
+**1. Infrastructure now costs about the same as the entire payroll.**
+$6,500 infra vs $6,800 people — infrastructure is **49% of opex**. In typical
+SaaS, payroll is 60–70% of opex; here it is 51%. Not because infrastructure grew
+unusually, but because **the team shrank and the infrastructure didn't.** The
+system still serves millions of keywords daily across 107K locations and 5 LLM
+providers, whatever the headcount is.
+
+> **Consequence: infrastructure cost reduction is now literally equivalent to
+> hiring.** A 30% cut is ~$1,950/month — the cost of a whole additional engineer
+> at current rates. And the levers are already documented and unowned (LLM
+> routing, dedupe caching, batching, ClickHouse optimization).
+
+**2. Support costs more than development.** $2,300 vs $2,000. Support load
+scales with **customer count**, not revenue — so a long tail of small accounts is
+now the single largest people cost in the company. **This is direct evidence for
+the upmarket concentration thesis** in [`12`](12-long-term-and-repositioning.md),
+no longer just an argument from theory.
+
+**3. Money was never the constraint on hiring.** At ~$46,700/month of surplus, a
+growth owner at $3,000–5,000/month costs **6–11% of surplus**, and needs to
+generate ~$4–5K MRR to be free. **Lever 1 alone targets +$4,500 in work that is
+already scoped.** The hire is self-funding out of a campaign that is already
+planned.
+
+### The risk that replaced the money risk
+
+Financially this business is robust. **Operationally it is now extremely
+fragile:** roughly three people carrying seven-plus services — Rails, two Go
+services, Ember, React, ClickHouse, Kafka, Sidekiq, Kubernetes — across 107,296
+locations and five LLM providers.
+
+**Bus factor is 1 on essentially everything.** That is the dominant risk now,
+and it is also precisely what diligence discounts hardest (key-person
+dependency). The financial cushion is large enough to fix it; the fix is owners
+and documented redundancy, not more money.
+
+### Revenue direction matters more than revenue level
+
+At 78% operating margin, a few thousand dollars of MRR decline is not
+existential — each $1K lost is ~2% of surplus. **But direction is the thing
+being bought.** Declining MRR going into diligence is the worst single optic in
+a data room, and it re-ranks the plan: **retention and expansion now outrank new
+logo acquisition.** Lever 7 (churn-save) and Lever 1 (migration/upsell) move up;
+they are also the two cheapest levers to run.
 
 ---
 
