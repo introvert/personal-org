@@ -81,3 +81,12 @@ cites them; it never restates or overrides them.
 - Update docs with a date when an assumption is tested or a decision changes.
 - Prose over frameworks-for-their-own-sake; every section should change a
   behaviour, not just describe one.
+
+## The ranked plan
+
+`PLAN.md` at the repo root is the single prioritized action list across health,
+Nightwatch, Formaviva, and the long term (P0 this week → P3 months 4-12). It is
+the operational front door; `docs/` holds the reasoning. When a task asks "what
+should I do / what's next / what matters most," answer from `PLAN.md` and keep
+its ranking — do not re-rank on the fly, and do not add items to it without
+removing one (Gate 3).

@@ -15,14 +15,17 @@ re-litigated every week.
 
 ## Start here
 
-Read these three, in order:
+**→ [`PLAN.md`](PLAN.md) — everything in this repo, ranked. If you read one
+file, read that one.**
+
+Then, for the reasoning behind it:
 
 1. **[`docs/00-executive-summary.md`](docs/00-executive-summary.md)** — the whole
    argument on one page, including the single most important finding.
 2. **[`docs/01-life-thesis.md`](docs/01-life-thesis.md)** — goals, values, and
    the decision hierarchy everything else is downstream of.
-3. **[`docs/10-90-day-plan.md`](docs/10-90-day-plan.md)** — what to actually do
-   on Monday.
+3. **[`docs/10-90-day-plan.md`](docs/10-90-day-plan.md)** — the same plan laid
+   out week by week.
 
 ---
 
