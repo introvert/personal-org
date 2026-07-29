@@ -42,6 +42,7 @@ Read these three, in order:
 | 09 | [Technology Leverage](docs/09-technology-leverage.md) | What is possible today, what is reasonable now, and what is a trap |
 | 10 | [90-Day Plan](docs/10-90-day-plan.md) | Four outcomes, week by week |
 | 11 | [Review Cadence](docs/11-review-cadence.md) | Weekly, monthly, quarterly, annual — and the drift signals |
+| 12 | [Long-Term & Repositioning](docs/12-long-term-and-repositioning.md) | 3–5 year horizon: where to generate more value with less work |
 
 ---
 

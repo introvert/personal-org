@@ -33,6 +33,7 @@ visible, protect the floor.
 | Tech/AI leverage — and the traps | `docs/09-technology-leverage.md` |
 | What to do now | `docs/10-90-day-plan.md` |
 | Reviews and drift signals | `docs/11-review-cadence.md` |
+| Long-term direction, repositioning, value-per-work | `docs/12-long-term-and-repositioning.md` |
 
 **Business facts live in the business repos.** `nightwatch-org` (pricing,
 strategy, MRR plan, execution tracker) and `formaviva-org` (pivot options,
