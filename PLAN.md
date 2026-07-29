@@ -58,7 +58,7 @@ determine the next five years._
 | # | Do this | Why it ranks here | Effort |
 |---|---|---|---|
 | **14** | **Write the endgame document.** What outcome are you actually optimizing for; walk-away number *and terms*; what you won't trade; life after each scenario; what each means for Formaviva | **The highest-value single item in this repo.** ~30 strategy docs exist and none answers what you want out of this. Diligence is ahead of a launch — decisions made under offer pressure are systematically worse than the same decisions made six months earlier in a quiet room | 1 Owner block |
-| **15** | **Run the data/API demand test.** 10 conversations with plausible buyers + one price probe | One day against a possible business-model change — the best expected-value asymmetry available. **Kill criterion: fewer than 3 of 10 show real willingness to pay → drop it, cost was a day** | 1 day |
+| **15** | **Run the data/API demand test.** 10 conversations with plausible buyers + one price probe — **include 2–3 AI labs / agent builders** (grounding, retrieval evaluation, provenance) | One day against a possible business-model change — the best expected-value asymmetry available. The AI-grounding buyer is the genuinely uncrowded segment, and it needs no pivot: it's your existing archive sold to a new buyer. **Kill criterion: fewer than 3 of 10 show real willingness to pay → drop it, cost was a day** | 1 day |
 | **16** | **Make "concentrate upmarket" explicit as policy.** New acquisition aimed at Agency/Enterprise; declare that customer count may fall while MRR rises | Costs nothing — it's a reframe. But it prevents a *success* (smaller, richer base) from being read as churn. Diligence rewards ARPA and NRR, not logo count | Zero |
 | **17** | **Answer the 3× capacity question in writing, once.** Where the stack breaks, what it costs to fix | Closes a loop you've been carrying indefinitely, and it's a diligence asset regardless | Half a day, eng |
 | **18** | **First monthly competitive review — then nothing until the next one** | The strategy is locked (Peec = tailwind). Continuous monitoring can't improve a locked decision; it only supplies threat signal | 1 block/month |
@@ -95,6 +95,7 @@ determine the next five years._
 - ❌ Execute a Formaviva pivot. The cap **is** the decision — and it's running the Option D test for free.
 - ❌ Build the data/API product before #15 passes. Ten conversations first.
 - ❌ Chase AI visibility head-on, or add a free tier. Both already killed on unit economics.
+- ❌ **Pivot to a different industry.** Every scarce asset stays behind, and it bets everything on distribution — the one capability with a 13-year track record as the weak point. Reopens at the endgame (#14), not before. See [`docs/12`](docs/12-long-term-and-repositioning.md) Part 4.
 - ❌ Build a personal productivity system. **Adopt, don't build** — a half-built one becomes a third venture.
 - ❌ Add an ambitious health program. Five items over three months, at a volume that survives a bad week.
 

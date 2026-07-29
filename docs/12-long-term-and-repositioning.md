@@ -294,12 +294,176 @@ intensities and on different clocks.
 
 ---
 
+## Part 4 — Should we pivot to a different industry entirely?
+
+_Taken seriously, because the instinct behind it is sound: find ground where the
+same effort produces more value. The conclusion is no — but the reasoning
+matters more than the verdict, because it also identifies the one adjacency that
+does qualify._
+
+### Test 1 — What actually transfers?
+
+The only honest way to evaluate a cross-industry pivot is to list what survives
+the move.
+
+| Asset | Transfers to a new industry? |
+|---|---|
+| 13 years of SERP history | ❌ **No.** Worthless outside search |
+| Raw HTML archive / verifiability | ❌ No |
+| 107K locations, zip-code precision | ❌ No |
+| Rank ↔ AI-citation join | ❌ No |
+| 800 customer relationships | ❌ No |
+| Brand and 4.8/5 reputation | ❌ No |
+| Domain credibility (13 years in SEO) | ❌ No |
+| Formaviva's scene trust and taste | ❌ No |
+| **Engineering capability** — geo-distributed fetching at scale, time-series over billions of rows, LLM orchestration | ✅ Yes |
+| **The team** | ✅ Yes |
+| **Cash and profitability** | ✅ Yes |
+
+**Everything scarce stays behind. Only the generic things travel.** A pivot to a
+new industry means voluntarily discarding every moat and re-entering as a
+well-engineered startup with no distribution — which is a description of the
+starting position, not an improvement on it.
+
+### Test 2 — Does it fix the actual weakness? (the decisive one)
+
+`CONCLUSIONS.md` is unambiguous about what's wrong:
+
+> _"800 customers after 13 years is a **GTM failure, not a product failure**."_
+
+Now apply that to a pivot. In a new industry you would have:
+
+- no data moat,
+- no brand,
+- no customers,
+- no domain credibility,
+- and **the same go-to-market capability that underperformed in a market you
+  know intimately after thirteen years.**
+
+> **If distribution is the weak muscle, changing the market doesn't strengthen
+> it — it removes every compensating advantage and makes the weak muscle the
+> only thing that matters.**
+
+That is the argument that settles it. A pivot is the *highest-leverage bet on
+the one capability with the weakest track record here.* Everything ranked
+★★★★ in Part 1 does the opposite: it leans on assets that already exist and
+reduces the amount of GTM required per euro.
+
+### Test 3 — Is "less crowded" a signal or a warning?
+
+Usually a warning. Markets are empty for reasons, and the reasons are rarely
+"nobody thought of it":
+
+- no budget,
+- no urgency,
+- a structural obstacle discovered by everyone who tried,
+- or it's small.
+
+Crowding is evidence of money. Nightwatch's market contains Semrush at **$512M
+ARR** and Ahrefs at **$149M ARR** — that is validation, not a problem. The
+market was never too small. **Capturing roughly 0.15% of it was the problem**,
+and that number is a distribution number.
+
+There's a second-order trap too: an uncrowded market has no competitors *and no
+category*. You pay for the education of every buyer yourself — which is exactly
+the cost Pivot 4 was designed to let Peec absorb on your behalf.
+
+### The adjacent-capability scan (done properly, so it stays closed)
+
+The one thing that does travel is the **data-collection engine** — Goverseproxy,
+the SERP engine, 107K geo-distributed access points, LLM orchestration. Where
+else could that engine point? Honest scan, with the crowding reality of each:
+
+| Adjacent market | Uses the engine? | Reality |
+|---|---|---|
+| E-commerce price/assortment intelligence | ✅ | Crowded — Bright Data, Price2Spy, DataWeave. Commodity, price-fought |
+| Brand protection / counterfeit monitoring | ✅ | Crowded, and it's a legal-services sale, not a data sale |
+| Ad verification | ✅ | Owned by DoubleVerify/IAS. Effectively closed |
+| Market/web intelligence | ✅ | Similarweb, Semrush again. Crowded |
+| App-store / marketplace rank tracking | ✅ | Adjacent and plausible, but small and already served |
+| **AI grounding, evaluation & provenance data** | ✅ | **Nascent. Well-funded buyers. See below** |
+
+Five of six are as crowded as where you already are, with none of your moat.
+That is the usual outcome of this exercise and it is worth having done once, in
+writing, so the question stops recurring.
+
+### The one that qualifies — and it isn't a pivot
+
+The sixth row is real, and it is **Part 1's data/API option pointed at its best
+buyer**:
+
+AI labs and agent builders need to know **what the web actually said, where, and
+when** — for grounding, retrieval evaluation, hallucination benchmarking, and
+training-data provenance. Nightwatch already stores raw SERP HTML for every
+check going back thirteen years, across 107K locations, *and* already queries
+five LLM APIs against the same queries. The question _"what did search look like
+for this query, in this location, on this date — and what did the models say
+about it?"_ is a product almost nobody can answer.
+
+Why this is the exception rather than another pivot:
+
+- It uses **every** scarce asset instead of discarding them.
+- The buyers are technical, well-funded, and actively looking.
+- The category is genuinely new — but it is *your* category, not someone else's.
+- **The delivery surface is a set of docs and an API key**, which is the entire
+  point of the value-per-work frame.
+
+It requires no repositioning, no new company, and no new market entry. **It is
+one extra buyer segment for a test you can run in a day** (#15 in
+[`PLAN.md`](../PLAN.md)) — add two or three AI-lab conversations to the ten.
+
+### The tell worth naming
+
+The impulse to look at other industries reliably correlates with **fatigue, not
+opportunity.** After thirteen years, competitor density, and the load documented
+in [`02-current-state.md`](02-current-state.md), "somewhere less crowded" is
+partly a wish for relief — and that is a completely reasonable thing to want.
+
+But be precise about what relief is being sought, because a pivot delivers the
+opposite of it: year one of a new industry is *maximum* work, *maximum*
+uncertainty, and *zero* compounding. The relief being reached for is actually
+available faster and cheaper somewhere else on this list:
+
+> **P1 in [`PLAN.md`](../PLAN.md) — naming a growth owner, routing alerts away,
+> handing off Lever 1 — produces more genuine relief in six weeks than a pivot
+> produces in three years.**
+
+Fix the load first. Then, if the desire to build something new is still there,
+it's a real signal rather than an escape route — and it deserves to be acted on
+from a position of strength.
+
+### When this question legitimately reopens
+
+Not never. **At the endgame** (#14).
+
+If the outcome resolves with capital and freedom, then "what should I build
+next?" becomes a clean-slate question, answered with money, time, no legacy
+obligations, and no diligence running in parallel. That is the right moment for
+it, and the endgame document is the right place to write it down.
+
+> **The answer to "should we do something new" isn't no. It's *not yet, and here
+> is the date* — which is Gate 5 applied to a feeling rather than a project.**
+
+### Verdict
+
+> **No industry pivot. Everything scarce stays behind, and it bets the company
+> on distribution — the one capability with a thirteen-year track record of
+> being the weak point. The genuinely uncrowded ground (AI grounding and
+> provenance data) is reachable *without* a pivot, because it is your existing
+> archive sold to a new buyer. Fix the load, run the one-day test, and let the
+> endgame be where "something new" gets decided.**
+
+---
+
 ## What NOT to do (explicitly)
 
 Named so they stay rejected under future enthusiasm:
 
 - ❌ **Enter a new market.** Adds support, build, and GTM surface simultaneously.
   The whole point is to *remove* denominator.
+- ❌ **Pivot to a different industry.** Every scarce asset stays behind and it
+  bets everything on distribution — the documented weak point. Full reasoning in
+  Part 4; reopens at the endgame, not before.
 - ❌ **Reopen Nightwatch's category positioning.** Settled, correct, and it was
   already the less-competitive repositioning.
 - ❌ **Reopen v4 pricing.** Settled. Harvest it.
