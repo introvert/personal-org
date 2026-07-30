@@ -246,22 +246,64 @@ must survive it:
 
 ---
 
-## The unknowns that matter most
+## The unknowns register
 
-Ranked by how much they are currently distorting decisions:
+_Updated 2026-07. Ranked by how much each is currently distorting decisions.
+This table is the honest statement of how much of this repo rests on estimates._
 
-| # | Unknown | Why it matters | Cost to resolve |
+### Resolved
+
+| Unknown | Status |
+|---|---|
+| Team size and people cost | ✅ ~3 people, $6,800/mo |
+| Total cost base | ✅ ~$13,300/mo (one ambiguity remains, below) |
+| Gross and operating margin | ✅ ~89% / ~78% at $60K MRR |
+| Revenue per employee | ✅ ~$240K ARR/head |
+
+### Still open — ranked
+
+| # | Unknown | Why it matters | Cost |
 |---|---|---|---|
-| 1 | Real Nightwatch baseline (customers, ARPA, churn, conversion, legacy cohort sizes) | Every lever in the 90-day plan is sized off assumptions | Hours, in Stripe + PostHog |
-| 2 | Is the payment-activation bug live in production? | Users who **decided to pay** may be failing to pay right now | One test transaction |
-| 3 | Real LLM/infra cost per unit and its trend | Determines gross margin and whether growth is affordable | Days |
-| 4 | Formaviva's real one-page P&L and blended take rate | Determines whether "cap it" or "wind it down" is honest | Days |
-| 5 | Personal health baseline | No monitor on the most critical dependency in the system | One appointment |
-| 6 | Personal runway independent of both businesses | Determines whether decisions are made from strength or fear | An afternoon |
+| 1 | **Why did revenue slip?** Churn, contraction, or fewer new? | **The most decision-relevant unknown right now.** Each cause implies a completely different response, and I have no data to distinguish them | Hours |
+| 2 | **Current MRR, exactly** | Everything downstream — margin, surplus, hire affordability, diligence optics — is modelled across $56–64K | Minutes |
+| 3 | Baseline cohort data (customers, ARPA, churn, conversion, legacy sizes) | **Lever 1's +$4,500 is sized off "~550 customers below €99."** If that number is wrong, the highest-certainty lever in the plan is mis-sized | Hours |
+| 4 | Is the payment-activation bug live? | Binary, and money may be leaking now | 1 hour |
+| 5 | **What "diligence ahead of a launch" actually is** — acquisition, fundraise, or something else | This repo has assumed acquisition-flavoured throughout. If it is a raise, the endgame document, the growth-vs-margin trade-off, and the hiring stance all change | A conversation |
+| 6 | Is the $2,000 processing cost inside or on top of the $5,000? | $24K/year | Minutes |
+| 7 | Formaviva's real one-page P&L | The cap was recommended without knowing what it currently costs | Days |
+| 8 | **Who else has a stake in Formaviva?** The docs say "founders," plural | The handover branch is unwritable without this | A conversation |
+| 9 | Employment status of dev and infra (FTE, contractor, part-time?) | Materially changes what can be delegated and how fast | Known to founder |
+| 10 | Personal health baseline | No monitor on the most critical dependency | One appointment |
+| 11 | Personal runway, burn, exposure, "enough" number | Determines whether decisions come from strength or fear | An afternoon |
+| 12 | Corporate/tax structure, share structure, obligations | Cannot plan an endgame without it | An advisor conversation |
 
-**Items 1, 2, 5 and 6 are all resolvable inside two weeks and together remove
-most of the fog.** That is the highest return available anywhere in this repo,
-and none of it is engineering.
+### Assumptions this repo makes that were never verified
+
+Stated plainly, because an unmarked assumption behaves like a fact:
+
+- That competitive monitoring is **continuous** and anxiety-producing — inferred
+  from how the problem was described, never measured.
+- That the founder's week is overloaded in the specific shape described — **no
+  actual hours audit has been run.** The energy audit in this document is
+  reasoning from documents, not from data.
+- That the sub-€99 base is a support burden — plausible given support > dev
+  cost, but **no ticket data was examined.**
+- That the data/API opportunity is real — desk reasoning only. That is precisely
+  what the ten conversations are for.
+
+### The structural gap
+
+**No customer voice anywhere in this analysis.** Nothing here draws on why
+customers actually churn, what they would pay more for, or what the sub-€99 base
+wants. The upmarket thesis, Lever 1's sizing, and the churn response all
+ultimately depend on it, and all three are currently built from internal
+documents alone.
+
+> **Everything in this repo was derived from documents written inside these two
+> organizations. That is a closed loop — self-consistent, and capable of sharing
+> a blind spot.** The inputs that would break the loop are external: customers, a
+> peer founder or advisor, the actual questions the counterparty asks in
+> diligence, and a doctor.
 
 ---
 
