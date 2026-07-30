@@ -259,6 +259,7 @@ This table is the honest statement of how much of this repo rests on estimates._
 | Total cost base | ✅ ~$13,300/mo (one ambiguity remains, below) |
 | Gross and operating margin | ✅ ~89% / ~78% at $60K MRR |
 | Revenue per employee | ✅ ~$240K ARR/head |
+| Who else has a stake in Formaviva | ✅ **Single founder — no co-founder in either venture** |
 
 ### Still open — ranked
 
@@ -271,11 +272,34 @@ This table is the honest statement of how much of this repo rests on estimates._
 | 5 | **What "diligence ahead of a launch" actually is** — acquisition, fundraise, or something else | This repo has assumed acquisition-flavoured throughout. If it is a raise, the endgame document, the growth-vs-margin trade-off, and the hiring stance all change | A conversation |
 | 6 | Is the $2,000 processing cost inside or on top of the $5,000? | $24K/year | Minutes |
 | 7 | Formaviva's real one-page P&L | The cap was recommended without knowing what it currently costs | Days |
-| 8 | **Who else has a stake in Formaviva?** The docs say "founders," plural | The handover branch is unwritable without this | A conversation |
 | 9 | Employment status of dev and infra (FTE, contractor, part-time?) | Materially changes what can be delegated and how fast | Known to founder |
 | 10 | Personal health baseline | No monitor on the most critical dependency | One appointment |
 | 11 | Personal runway, burn, exposure, "enough" number | Determines whether decisions come from strength or fear | An afternoon |
 | 12 | Corporate/tax structure, share structure, obligations | Cannot plan an endgame without it | An advisor conversation |
+
+### What "single founder" changes
+
+Confirmed 2026-07: **one founder, no co-founder in either venture.** Three
+consequences, and they do not all point the same way:
+
+1. **Decisions are simpler.** No alignment cost, no co-founder to negotiate the
+   Formaviva cap or the endgame with. Every call in this repo is yours to make
+   alone — which is faster, and is why "already decided" can actually stick.
+2. **Bus factor is 1 at the top, not just in the services.** The engineering
+   redundancy problem is real, but it is bounded and fixable with documentation
+   and owners. **There is no equivalent fix for the founder layer** — no partner
+   to cover an illness, carry a diligence process, or hold the company through a
+   bad quarter. This is now the single largest concentration risk in the
+   portfolio, and it is exactly what a buyer will price.
+3. **The Formaviva handover branch means an *external* owner.** Not a
+   co-founder — a partner, the community, or a scene-aligned buyer. That is a
+   longer, more deliberate process than handing to someone already inside, so
+   the decision date needs more lead time than it would otherwise.
+
+**It also raises the value of the two external relationships in
+[`10`](10-people-and-relationships.md):** a peer founder and a trusted advisor
+are not networking here, they are the only substitute available for a
+co-founder's second opinion.
 
 ### Assumptions this repo makes that were never verified
 

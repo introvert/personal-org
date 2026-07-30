@@ -162,6 +162,14 @@ each is a plan rather than a reaction.
 | **Health event** | Energy ≤2 for 3+ consecutive weeks, or a medical finding | **Immediate subtraction.** Formaviva pauses fully. Nightwatch drops to essential operations. This is pre-decided so it does not require deciding while depleted |
 | **Formaviva opportunity** | A partner, buyer, or co-founder appears | Evaluate through Gates 1–5. A genuine partner is the single best outcome for it — it gets a real chance without taking founder capacity |
 
+**Sole-founder note.** There is no co-founder in either venture. Every scenario
+above is yours to decide alone, and — more importantly — **yours to survive
+alone.** That makes the health-event row below not merely prudent but the single
+most under-insured risk in the portfolio: there is no partner to hold anything
+while you recover. It is also the concentration risk a buyer will price most
+heavily, which is a further argument for the owner-level hires in
+[`06`](06-nightwatch-adjustments.md) — they are the only redundancy available.
+
 **The health-event row is the most important one on this page,** because it is
 the only scenario where good judgment is guaranteed to be unavailable at the
 moment the decision is needed. Pre-deciding it is the entire point.

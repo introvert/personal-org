@@ -129,16 +129,25 @@ and roughly when you'll revisit. Two paragraphs. It converts an unexplained
 slowdown into a stated position, and it costs one afternoon inside the weekly
 slot.
 
-### 3. Peer founders — the relationship category most likely missing
+### 3. Peer founders — now the highest-value missing relationship
 
-Thirteen years in, pre-diligence, with two ventures and a small team, there is a
-specific kind of conversation you can only have with someone who has been
-through it: another founder, ideally one who has been through an exit.
+**You are a sole founder.** No co-founder in either venture — confirmed, and it
+changes the weight of this section considerably.
 
-This is not networking. It is the **only external check on the closed loop**
-named in [`02-current-state.md`](02-current-state.md) — everything in this repo
-was derived from documents written inside your own organizations, and a peer
-founder is the cheapest available way to find the blind spot they share.
+A co-founder is not only shared work. It is a second opinion that costs nothing
+to ask for, someone who carries the same risk, and a person who can take the
+wheel during an illness or a bad month. **Without one, there is no internal
+check on any judgment in this repo — including this repo.**
+
+So this is not networking. Thirteen years in, pre-diligence, with two ventures
+and three staff, there is a specific kind of conversation only available from
+another founder — ideally one who has been through an exit — and it is currently
+the **only substitute available for the co-founder you don't have.**
+
+It is also the **only external check on the closed loop** named in
+[`02-current-state.md`](02-current-state.md): everything in this repo was derived
+from documents written inside your own organizations, by you. A peer founder is
+the cheapest available way to find the blind spot those documents share.
 
 **One conversation before the endgame document is written would improve it more
 than another week of analysis.** If there is nobody obvious, that itself is

@@ -154,7 +154,7 @@ At that date, choose explicitly — in writing, with the reasoning recorded:
 |---|---|
 | Nightwatch outcome creates real resources (money and/or freed time) | **Fund Option B properly** — a real team, a real 12 months, membership shipped. This is the version where Formaviva gets an honest chance instead of scraps |
 | Nightwatch continues to demand everything | **Option D** — keep the curatorial brand, radio, and editorial as a media/community property with a tiny cost base; wind the marketplace down gracefully |
-| Neither is sustainable | **Hand it over** — to a co-founder, the community, or a scene-aligned owner. A curated brand with real artist relationships is worth more transferred than abandoned |
+| Neither is sustainable | **Hand it over** — to a partner, the community, or a scene-aligned owner. **There is no co-founder**, so this is an external handover and needs real lead time. A curated brand with real artist relationships is worth more transferred than abandoned |
 
 **Never: quiet attrition.** Letting it decay by neglect is the only genuinely bad
 outcome — it loses the asset, damages the relationships, and produces guilt
