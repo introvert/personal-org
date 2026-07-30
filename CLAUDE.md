@@ -31,9 +31,11 @@ visible, protect the floor.
 | Formaviva position (Protected Asset Mode) | `docs/07-formaviva-adjustments.md` |
 | Portfolio, financial floor, endgame | `docs/08-portfolio-strategy.md` |
 | Tech/AI leverage — and the traps | `docs/09-technology-leverage.md` |
-| What to do now | `docs/10-90-day-plan.md` |
-| Reviews and drift signals | `docs/11-review-cadence.md` |
+| People, relationships, the team | `docs/10-people-and-relationships.md` |
+| Personal money, runway, "enough" | `docs/11-money-and-enough.md` |
 | Long-term direction, repositioning, value-per-work | `docs/12-long-term-and-repositioning.md` |
+| Life design — the four questions | `docs/13-life-design.md` |
+| What to do now; review cadences | `PLAN.md`; `docs/04-time-and-attention.md` |
 
 **Business facts live in the business repos.** `nightwatch-org` (pricing,
 strategy, MRR plan, execution tracker) and `formaviva-org` (pivot options,
@@ -81,6 +83,10 @@ cites them; it never restates or overrides them.
 - Update docs with a date when an assumption is tested or a decision changes.
 - Prose over frameworks-for-their-own-sake; every section should change a
   behaviour, not just describe one.
+- **Docs 10, 11 and 13 are personal and deliberately incomplete.** Their _"fill
+  in"_ prompts are for the human. Never fabricate family, relationships,
+  finances, or life preferences — if asked to work on them, help think, ask
+  questions, or format what the user supplies. Nothing else.
 
 ## The ranked plan
 

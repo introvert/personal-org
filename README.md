@@ -24,8 +24,8 @@ Then, for the reasoning behind it:
    argument on one page, including the single most important finding.
 2. **[`docs/01-life-thesis.md`](docs/01-life-thesis.md)** — goals, values, and
    the decision hierarchy everything else is downstream of.
-3. **[`docs/10-90-day-plan.md`](docs/10-90-day-plan.md)** — the same plan laid
-   out week by week.
+3. **[`docs/13-life-design.md`](docs/13-life-design.md)** — the four questions
+   everything else is downstream of.
 
 ---
 
@@ -43,9 +43,10 @@ Then, for the reasoning behind it:
 | 07 | [Formaviva Adjustments](docs/07-formaviva-adjustments.md) | The honest position — Protected Asset Mode, the cap, and the decision date |
 | 08 | [Portfolio Strategy](docs/08-portfolio-strategy.md) | How the two fit together, the financial floor, and the endgame document |
 | 09 | [Technology Leverage](docs/09-technology-leverage.md) | What is possible today, what is reasonable now, and what is a trap |
-| 10 | [90-Day Plan](docs/10-90-day-plan.md) | Four outcomes, week by week |
-| 11 | [Review Cadence](docs/11-review-cadence.md) | Weekly, monthly, quarterly, annual — and the drift signals |
+| 10 | [People & Relationships](docs/10-people-and-relationships.md) | The floor-tier thing with no monitoring — and three situations specific to you |
+| 11 | [Money & "Enough"](docs/11-money-and-enough.md) | Four personal numbers, what money is for, and preparing for a transaction |
 | 12 | [Long-Term & Repositioning](docs/12-long-term-and-repositioning.md) | 3–5 year horizon: where to generate more value with less work |
+| 13 | [Life Design](docs/13-life-design.md) | The part that isn't a business outcome — the four questions |
 
 ---
 
@@ -83,6 +84,6 @@ killing it, and treat health as infrastructure with an SLA.**
 Living documents. When an assumption is tested — a real number replaces an
 estimate, a cap holds or breaks, a decision date arrives — update the relevant
 doc and note the date. Cadence and drift signals are in
-[`docs/11-review-cadence.md`](docs/11-review-cadence.md).
+[`docs/04-time-and-attention.md`](docs/04-time-and-attention.md).
 
 _Last major revision: 2026-07._

@@ -13,6 +13,22 @@ work, delegates work, or measures something already happening.
 
 ---
 
+## The four outcomes (what "done" means at day 90)
+
+Everything below serves exactly four results. Four, not fourteen — Deliberate
+Smallness applied to the plan about Deliberate Smallness.
+
+| | Outcome | Measure |
+|---|---|---|
+| **O1** | **The floor is real** | Sleep anchor ≥5 nights/week; medical baseline taken; one off day/week held; after-hours alerts at zero by default |
+| **O2** | **The numbers are known** | Nightwatch baseline confirmed from Stripe/PostHog; the revenue-slip cause identified; Formaviva one-page P&L exists; personal runway computed |
+| **O3** | **The founder is off two of three critical paths** | A named non-founder growth owner; Lever 1 owned by CS; demos the only personally-owned lever |
+| **O4** | **Formaviva is capped, not carried** | Written cap (money + hours), security-only engineering, decision date set |
+
+**Rough phasing:** P0 = week 1–2 · P1 = weeks 2–6 · P2 = weeks 6–12 · P3 = after.
+
+---
+
 ## P0 — This week
 
 _Five items. Together they cost about two days and close every open loop in the
@@ -47,6 +63,8 @@ hygiene; this is the actual change._
 | **11** | **Batch demos into two afternoon blocks. No meetings before midday** | Keeps the one lever worth keeping personally (25–30% close rate) without letting it destroy five mornings | You | It's in the calendar and defended |
 | **12** | **Start the Formaviva EOL stack upgrade path** (Ruby 2.4 / Rails 5.1 / PG 9.6) | The one genuinely urgent engineering item across both companies — a live security exposure on a platform holding other people's money and data. Staged, incremental, inside the cap | Formaviva eng | A dated staged plan is underway |
 | **13** | **Personal: wake anchor, morning light, one off day, Monday review + Friday close** | The floor. Everything above degrades without it, and it's the cheapest item on this page | You | Anchor held ≥5 nights/week for two consecutive weeks |
+| **13a** | **Set up one recurring commitment with someone who matters.** A standing weekly call, a monthly dinner — one, not a system | **Relationships are the only thing on the floor tier with no monitoring.** Servers page you, revenue shows up in a tracker, your body eventually escalates. This degrades silently for years ([`docs/10`](docs/10-people-and-relationships.md)). Costs nothing, starts this week | You | It's recurring in the calendar |
+| **13e** | **Tell the Formaviva scene what the position is.** Two paragraphs: curation and radio continue, platform work paused, revisit date | **A cap communicated is a decision; a cap not communicated is going quiet** — and going quiet is how trust actually gets lost. Nobody minds a slower roadmap; people notice unanswered messages | You | Sent, inside the weekly slot |
 
 ---
 
@@ -57,7 +75,10 @@ determine the next five years._
 
 | # | Do this | Why it ranks here | Effort |
 |---|---|---|---|
-| **14** | **Write the endgame document.** What outcome are you actually optimizing for; walk-away number *and terms*; what you won't trade; life after each scenario; what each means for Formaviva | **The highest-value single item in this repo.** ~30 strategy docs exist and none answers what you want out of this. Diligence is ahead of a launch — decisions made under offer pressure are systematically worse than the same decisions made six months earlier in a quiet room | 1 Owner block |
+| **13b** | **Answer the four life-design questions** ([`docs/13`](docs/13-life-design.md)) — the ordinary week, who you are without the company, where and how you want to live, what the next 13 years should contain | **Do this before #14, or as its first half.** The endgame document looks like a financial document but is actually this one wearing a spreadsheet — you can't write a walk-away number without knowing what you're walking toward | 1 afternoon, on paper |
+| **13c** | **Compute the four personal numbers** ([`docs/11`](docs/11-money-and-enough.md)): burn, runway, exposure, **"enough"** | "Enough" is the input #14 depends on and the one nobody computes. **After an offer exists it can no longer be computed honestly** | 1 afternoon |
+| **13d** | **One conversation with a peer founder who has been through an exit; one with a tax/structure advisor** | The only external check on a closed loop — everything in this repo came from documents written inside your own two organizations. The tax conversation is one meeting and some options close once a process starts | 2 meetings |
+| **14** | **Write the endgame document.** What outcome are you actually optimizing for; walk-away number *and terms*; what you won't trade; life after each scenario; what each means for Formaviva | **The highest-value single item in this repo.** ~30 strategy docs exist and none answers what you want out of this. Diligence is ahead of a launch — decisions made under offer pressure are systematically worse than the same decisions made six months earlier in a quiet room. **Needs 13b and 13c done first** | 1 Owner block |
 | **15** | **Run the data/API demand test.** 10 conversations with plausible buyers + one price probe — **include 2–3 AI labs / agent builders** (grounding, retrieval evaluation, provenance) | One day against a possible business-model change — the best expected-value asymmetry available. The AI-grounding buyer is the genuinely uncrowded segment, and it needs no pivot: it's your existing archive sold to a new buyer. **Kill criterion: fewer than 3 of 10 show real willingness to pay → drop it, cost was a day** | 1 day |
 | **16** | **Make "concentrate upmarket" explicit as policy.** New acquisition aimed at Agency/Enterprise; declare that customer count may fall while MRR rises | Costs nothing — it's a reframe. But it prevents a *success* (smaller, richer base) from being read as churn. Diligence rewards ARPA and NRR, not logo count | Zero |
 | **17** | **Answer the 3× capacity question in writing, once.** Where the stack breaks, what it costs to fix | Closes a loop you've been carrying indefinitely, and it's a diligence asset regardless | Half a day, eng |

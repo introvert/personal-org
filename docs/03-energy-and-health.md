@@ -222,7 +222,7 @@ the Friday close described in
 **The signal to act on:** subjective energy at ≤2 for three consecutive weeks is
 not a motivation problem to push through. It is a load problem, and the response
 is subtraction — which is exactly what [`05-decision-framework.md`](05-decision-framework.md)
-and [`10-90-day-plan.md`](10-90-day-plan.md) exist to make executable rather than
+and [`../PLAN.md`](../PLAN.md) exist to make executable rather than
 guilt-inducing.
 
 ---

@@ -117,4 +117,4 @@ protect the body that is running all of it.**
 
 _Start here, then read [`01-life-thesis.md`](01-life-thesis.md) (what you're
 optimizing for), [`02-current-state.md`](02-current-state.md) (the honest
-baseline), and [`10-90-day-plan.md`](10-90-day-plan.md) (what to do Monday)._
+baseline), and [`../PLAN.md`](../PLAN.md) (what to do Monday)._
